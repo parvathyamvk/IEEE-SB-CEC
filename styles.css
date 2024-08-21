@@ -1,0 +1,417 @@
+html{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width:100%;
+    position: relative;
+}
+.navbar{
+    background-color: #ffffff;
+    border-bottom: 3px solid hwb(235 6% 41%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: hwb(235 2% 68%);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 300;
+}
+.navbar a:hover {
+    
+    color: #7a9fc4;
+}
+
+.navul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.link{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.imge{
+    height: 50px; 
+    width: 50px;
+    display: flex;
+    justify-content: left;
+}
+.navbar-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section{
+    padding: 100px 2px;
+    height: 100%;       
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-decoration-color:#114177;
+    text-decoration-thickness: 4px;
+}
+p{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(75, 75, 72);
+    
+}
+.home-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.ieee{
+    padding: 10px;
+
+}
+.cec{
+    padding:0px 100px;
+}
+.about-us{
+    padding:0px 100px;
+    font-size: x-large;
+}
+.event-w{
+    padding:0px 100px;
+    font-size: x-large;
+}
+.event-h1{
+    padding-top: 20px;
+}
+.event-list{
+    text-align: center;
+    list-style: none;
+    color: rgb(75, 75, 72);;
+}
+.home-img{
+    width: 100%;
+    height: 688px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.imagee{
+    width: 100%;
+    height: auto;
+    
+    object-fit: cover;
+}
+.test1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 100px;
+    grid-gap: 100px;
+    
+}
+
+.test2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 100px;
+    grid-gap: 100px;
+}
+.cha-1{
+    width: 328px;
+    height: 124px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.cha-2{
+    width: 180px;
+  height: 127px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.cha-3{
+    width: 248px;
+  height: 128px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.cha-4{
+    width: 185px;
+  height: 140px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.cha-5{
+    width: 260px;
+    height: 147px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.cha-6{
+    width: 305px;
+    height: 139px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.cha-7{
+    width: 195px;
+    height: 119px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+.cha-img1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px 43px;
+    grid-gap: 112px;
+
+}
+.cha-img2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 98px;
+    grid-gap: 185px;
+
+}
+.swiper-container {
+    width: 100%;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    background-color: #ffffff;
+    padding: 0px;
+   
+    border-radius: 10px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+}
+
+.swiper-pagination-bullet {
+    background: #114177;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #114177;
+}
+#contact{
+    background-color: #00254b;
+}
+
+.contact-img1{
+    width: 45px;
+    height: 53px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.contact-img2{
+    width: 50px;
+  height: 52px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-img3{
+    width: 56px;
+  height: 53px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.contact-img4{
+    width: 56px;
+  height: 53px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.contact-2{
+    font-size: medium;
+    color: #000;
+    text-align: left;
+}
+.contact-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+h2{
+    font-size: 37px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar-contain {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .navul {
+        flex-direction: row;
+        
+        width: 100%;
+    }
+
+    .navul li {
+        width: 100%;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .navbar a {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    section {
+        padding: 80px 10px;
+        
+    }
+
+    .home-1 {
+        grid-template-columns: 1fr;
+    }
+
+    .imagee {
+        max-height: 250px;
+    }
+
+    .home-img {
+        padding: 15px 0;
+    }
+    .imge{
+        height: 30px; 
+        width: 30px;
+        display: flex;
+        justify-content: left;
+    }
+    .ieee{
+        padding: 0px;
+    }
+    .about-us, .cec, .event-w {
+        padding: 15px;
+        font-size: 17px;
+    }
+
+    .swiper-slide {
+        font-size: 1em;
+        padding: 0px;
+    }
+    .cha-1 {
+        width: 74px;
+        height: 41px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+      }
+    .cha-2 {
+    width: 59px;
+    height: 44px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  .cha-3 {
+    width: 55px;
+    height: 45px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  .cha-4 {
+    width: 60px;
+    height: 51px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  .cha-5 {
+    width: 70px;
+    height: 58px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  .cha-6 {
+    width: 62px;
+    height: 44px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+.cha-7 {
+    width: 64px;
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+   .cha-img1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px 0px;
+    grid-gap: 26px;
+  }
+    .cha-img2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 33px;
+        grid-gap: 26px;
+      }
+    
+}
+
+@media (max-width: 480px) {
+    .home-img {
+        padding: 10px 0;
+    }
+
+    .home-img img {
+        max-height: 200px;
+    }
+
+    .home-1, .cec {
+        padding: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    p {
+        font-size: medium;
+    }
+}
